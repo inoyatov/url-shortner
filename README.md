@@ -10,8 +10,14 @@
 # Install
 - Create virtual environment
 ```bash
-python3 -m venv --promtp="venv" .venv
+python3 -m venv --prompt="venv" .venv
 ```
+
+- Activate virtual environment
+```bash
+source .venv/bin/activate
+```
+
 - Install required modules
 ```bash
 python3 -m pip install -r requirements/development.txt
